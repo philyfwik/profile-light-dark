@@ -9,6 +9,8 @@ const image2Title = document.getElementById('img2-title');
 const image3Title = document.getElementById('img3-title');
 const textBox = document.getElementById('text-box');
 const aboutTitle = document.getElementById('about-title');
+//const projectsTitle = document.getElementById('projects-title');
+//const textBoxP = document.getElementById('text-box-p');
 
 // Dark Mode Styles
 function darkMode() {
@@ -25,6 +27,8 @@ function darkMode() {
   image1Title.textContent = 'Basketball';
   image2Title.textContent = 'Playing Games';
   image3Title.textContent = 'Travelling';
+  //projectsTitle.textContent = 'React Projects';
+  //textBoxP.textContent = 'All Projects were built in ReactJS';
 }
 
 // Light Mode Styles
@@ -42,6 +46,8 @@ function lightMode() {
   image1Title.textContent = 'JavaScript Developer';
   image2Title.textContent = 'React Developer';
   image3Title.textContent = 'Full Stack Developer';
+  //projectsTitle.textContent = 'JS Projects';
+  //textBoxP.textContent = 'All Projects were built in JavaScript';
 }
 
 // Switch Theme Dynamically
