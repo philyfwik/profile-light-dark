@@ -175,6 +175,10 @@ p {
 }
 
 /* Contact Section */
+.social-icons a {
+  border-bottom: none;
+}
+
 .fa-brands, .fa-solid {
   font-size: 100px;
   margin: 0 60px;
