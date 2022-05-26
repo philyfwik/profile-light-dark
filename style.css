@@ -15,13 +15,13 @@
 
 [data-theme="dark"] {
   --primary-color: rgb(93, 130, 164);
-  --primary-color-linear: linear-gradient(to right,rgb(51, 77, 110), rgb(27, 65, 115));
+  --primary-color-linear: linear-gradient(to right,rgb(113, 139, 164),rgb(93, 130, 164));
   --secondary-color: #03dac5;
   --on-primary: #000;
   --on-background: rgba(239, 248, 251, 0.9);
   --on-background-alt: rgba(239, 248, 251, 0.7);
   --for-hover: rgb(27, 65, 115);
-  --for-hover-linear: linear-gradient(to right,rgb(23, 54, 96),rgb(22, 43, 74));
+  --for-hover-linear: linear-gradient(to right, rgb(27, 65, 115),rgb(51, 77, 110));
   --background: #121212;
 }
 
