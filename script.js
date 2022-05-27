@@ -12,21 +12,30 @@ const aboutTitle = document.getElementById('about-title');
 //const projectsTitle = document.getElementById('projects-title');
 //const textBoxP = document.getElementById('text-box-p');
 
+// Dark or Light Images
+function imageMode(color) {
+  image1.src = `img/undraw_img1_${color}.svg`;
+  image2.src = `img/undraw_img2_${color}.svg`;
+  image3.src = `img/undraw_img3_${color}.svg`;
+}
+
+// Change Image Titles
+function imageTitle(title1, title2, title3) {
+  image1Title.textContent = `${title1}`;
+  image2Title.textContent = `${title2}`;
+  image3Title.textContent = `${title3}`;
+}
+
 // Dark Mode Styles
 function darkMode() {
   nav.style.backgroundColor = 'rgb(0 0 0 / 50%)';
   textBox.style.backgroundColor = 'rgb(255 255 255 / 50%)';
   toggleIcon.children[0].textContent = 'Dark Mode';
-  toggleIcon.children[1].classList.remove('fa-sun');
-  toggleIcon.children[1].classList.add('fa-moon');
+  toggleIcon.children[1].classList.replace('fa-sun','fa-moon');
   nav.children[1].textContent = 'HOBBIES';
   aboutTitle.textContent = 'Hobbies';
-  image1.src = 'img/undraw_basketball_agx4.svg'
-  image2.src = 'img/undraw_video_game_night_8h8m.svg'
-  image3.src = 'img/undraw_traveling_re_weve.svg'
-  image1Title.textContent = 'Basketball';
-  image2Title.textContent = 'Playing Games';
-  image3Title.textContent = 'Travelling';
+  imageMode('dark');
+  imageTitle('Basketball', 'Playing Games', 'Travelling');
   //projectsTitle.textContent = 'React Projects';
   //textBoxP.textContent = 'All Projects were built in ReactJS';
 }
@@ -36,16 +45,11 @@ function lightMode() {
   nav.style.backgroundColor = 'rgb(239 248 251 / 50%)';
   textBox.style.backgroundColor = 'rgba(0 0 0 / 50%)';
   toggleIcon.children[0].textContent = 'Light Mode';
-  toggleIcon.children[1].classList.remove('fa-moon');
-  toggleIcon.children[1].classList.add('fa-sun');
+  toggleIcon.children[1].classList.replace('fa-moon','fa-sun');
   nav.children[1].textContent = 'SKILLS';
   aboutTitle.textContent = 'Technical Skills';
-  image1.src = 'img/undraw_proud_coder_light.svg'
-  image2.src = 'img/undraw_conceptual_idea_light.svg'
-  image3.src = 'img/undraw_feeling_proud_light.svg'
-  image1Title.textContent = 'JavaScript Developer';
-  image2Title.textContent = 'React Developer';
-  image3Title.textContent = 'Full Stack Developer';
+  imageMode('light');
+  imageTitle('JavaScript Developer', 'React Developer', 'Full Stack Developer');
   //projectsTitle.textContent = 'JS Projects';
   //textBoxP.textContent = 'All Projects were built in JavaScript';
 }
