@@ -11,12 +11,18 @@ const textBox = document.getElementById('text-box');
 const aboutTitle = document.getElementById('about-title');
 //const projectsTitle = document.getElementById('projects-title');
 //const textBoxP = document.getElementById('text-box-p');
+const achievement1 = document.getElementById('ach1');
+const achievement2 = document.getElementById('ach2');
+const achievement3 = document.getElementById('ach3');
 
 // Dark or Light Images
 function imageMode(color) {
   image1.src = `img/undraw_img1_${color}.svg`;
   image2.src = `img/undraw_img2_${color}.svg`;
   image3.src = `img/undraw_img3_${color}.svg`;
+  achievement1.src = `img/undraw_graduation_${color}.svg`;
+  achievement2.src = `img/undraw_awards_${color}.svg`;
+  achievement3.src = `img/undraw_awards_${color}.svg`;
 }
 
 // Change Image Titles
