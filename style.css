@@ -288,6 +288,9 @@ input:checked + .slider::before {
     padding: 12px;
     padding-top: 14px;
   }
+  nav a {
+    margin-right: 15px;
+  }
   /* Dark Mode Toggle */
   .theme-switch-wrapper {
     right: 12px;
@@ -322,13 +325,19 @@ input:checked + .slider::before {
   }
 
   /* About Section */
+  .image-container {
+    margin-right: 0px;
+    margin: 5px;
+  }
   img {
     height: 100px;
     width: 50px;
   }
 
   /* Projects Section */
-
+  .project-container {
+    margin: 10px;
+  }
 
   /* Achievements Section */
   .achievement-container img {
