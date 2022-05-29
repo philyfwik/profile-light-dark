@@ -276,7 +276,7 @@ input:checked + .slider::before {
     min-height: 100vh;
   }
   h1 {
-    font-size: 55px;
+    font-size: 50px;
   }
   h2 {
     font-size: 25px;
@@ -309,9 +309,15 @@ input:checked + .slider::before {
     right: 12px;
     top: 40px;
   }
+  .theme-switch-wrapper span {
+    margin-right: 0px;
+  }
   .theme-switch-wrapper .fa-solid {
     font-size: 24px;
-    margin-right: 5px;
+    position: fixed;
+    right: 12px;
+    top: 60px;
+    margin-right: 0px;
     margin-left: 0px;
   }
 
