@@ -326,8 +326,8 @@ input:checked + .slider::before {
 
   /* About Section */
   .image-container {
-    margin-right: 0px;
     margin: 5px;
+    padding: 5px 13px;
   }
   img {
     height: 60px;
