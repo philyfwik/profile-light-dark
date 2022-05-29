@@ -336,7 +336,12 @@ input:checked + .slider::before {
 
   /* Projects Section */
   .project-container {
-    margin: 10px;
+    margin: 5px;
+    padding: 5px 10px;
+  }
+  .text-box {
+    width: auto;
+    padding: 13px;
   }
 
   /* Achievements Section */
