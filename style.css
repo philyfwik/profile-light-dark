@@ -279,7 +279,7 @@ input:checked + .slider::before {
     font-size: 50px;
   }
   h2 {
-    font-size: 25px;
+    font-size: 23px;
   }
 
   /* Navigation */
@@ -346,11 +346,17 @@ input:checked + .slider::before {
 
   /* Achievements Section */
   .achievement-container {
-    margin-right: 0px;
     margin: 5px;
+    padding: 5px 13px;
   }
   .achievement-container img {
     height: 50px;
-    width: 50px;
+    width: 90px;
+  }
+
+  /* Contact Section */
+  .fa-brands, .fa-solid {
+    font-size: 50px;
+    margin: 25px;
   }
 }
