@@ -294,7 +294,7 @@ input:checked + .slider::before {
   /* Dark Mode Toggle */
   .theme-switch-wrapper {
     right: 12px;
-    top: 10px;
+    bottom: -600px;
   }
   .theme-switch {
     height: 27px;
@@ -309,8 +309,8 @@ input:checked + .slider::before {
   }
   .toggle-text {
     position: fixed;
-    right: 12px;
-    top: 40px;
+    right: 4px;
+    top: 700px;
   }
   .theme-switch-wrapper span {
     margin-right: 0px;
@@ -318,8 +318,8 @@ input:checked + .slider::before {
   .theme-switch-wrapper .fa-solid {
     font-size: 24px;
     position: fixed;
-    right: 12px;
-    top: 60px;
+    right: 25px;
+    top: 615px;
     margin-right: 0px;
     margin-left: 0px;
   }
