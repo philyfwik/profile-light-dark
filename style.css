@@ -360,3 +360,91 @@ input:checked + .slider::before {
     margin: 25px;
   }
 }
+
+/* For tablets */
+@media screen and (min-width: 600px) and (max-width:1000px) {
+  section {
+    min-height: 100vh;
+  }
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 23px;
+  }
+
+  /* Navigation */
+  nav {
+    font-size: 18px;
+    padding: 12px;
+    padding-top: 14px;
+  }
+  nav a {
+    margin-right: 20px;
+  }
+  /* Dark Mode Toggle */
+  .theme-switch-wrapper {
+    right: 12px;
+    top: -12px;
+  }
+  .theme-switch {
+    height: 27px;
+    width: 45px;
+  }
+  .slider::before {
+    height: 19px;
+    width: 20px;
+  }
+  .slider {
+    left: -9px;
+  }
+  .toggle-text {
+    position: relative;
+    top: -5px;
+    right: 0px;
+  }
+  .theme-switch-wrapper span {
+    margin-right: 10px;
+  }
+  .theme-switch-wrapper .fa-solid {
+    font-size: 24px;
+    margin-right: 5px;
+    margin-left: 1px;
+  }
+
+  /* About Section */
+  .image-container {
+    margin: 5px;
+    padding: 5px 13px;
+  }
+  img {
+    height: 60px;
+    width: 50px;
+  }
+
+  /* Projects Section */
+  .project-container {
+    margin: 5px;
+    padding: 5px 10px;
+  }
+  .text-box {
+    width: auto;
+    padding: 13px;
+  }
+
+  /* Achievements Section */
+  .achievement-container {
+    margin: 5px;
+    padding: 5px 13px;
+  }
+  .achievement-container img {
+    height: 50px;
+    width: 90px;
+  }
+
+  /* Contact Section */
+  .fa-brands, .fa-solid {
+    font-size: 50px;
+    margin: 25px;
+  }
+}
