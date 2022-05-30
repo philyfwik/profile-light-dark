@@ -294,7 +294,7 @@ input:checked + .slider::before {
   /* Dark Mode Toggle */
   .theme-switch-wrapper {
     right: 12px;
-    bottom: -600px;
+    top: 670px;
   }
   .theme-switch {
     height: 27px;
