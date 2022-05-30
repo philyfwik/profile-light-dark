@@ -342,6 +342,7 @@ input:checked + .slider::before {
   .text-box {
     width: auto;
     padding: 13px;
+    margin-top: 15px;
   }
 
   /* Achievements Section */
@@ -385,7 +386,7 @@ input:checked + .slider::before {
   /* Dark Mode Toggle */
   .theme-switch-wrapper {
     right: 12px;
-    top: -12px;
+    top: -40px;
   }
   .theme-switch {
     height: 27px;
@@ -415,36 +416,40 @@ input:checked + .slider::before {
   /* About Section */
   .image-container {
     margin: 5px;
-    padding: 5px 13px;
+    padding: 10px 25px;
   }
   img {
-    height: 60px;
-    width: 50px;
+    height: 220px;
+    width: 180px;
   }
 
   /* Projects Section */
   .project-container {
     margin: 5px;
-    padding: 5px 10px;
+    padding: 30px 20px;
+  }
+  #project-title {
+    font-size: 30px;
   }
   .text-box {
     width: auto;
-    padding: 13px;
+    padding: 30px 85px;
+    margin-top: 15px;
   }
 
   /* Achievements Section */
   .achievement-container {
     margin: 5px;
-    padding: 5px 13px;
+    padding: 10px 25px;
   }
   .achievement-container img {
-    height: 50px;
-    width: 90px;
+    height: 220px;
+    width: 180px;
   }
 
   /* Contact Section */
   .fa-brands, .fa-solid {
-    font-size: 50px;
-    margin: 25px;
+    font-size: 80px;
+    margin: 55px;
   }
 }
