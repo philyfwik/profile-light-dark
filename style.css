@@ -283,6 +283,9 @@ input:checked + .slider::before {
   }
 
   /* Navigation */
+  #nav-contact {
+    display: none;
+  }
   nav {
     font-size: 14px;
     padding: 12px;
@@ -290,7 +293,7 @@ input:checked + .slider::before {
   }
   nav a {
     margin-right: 20px;
-  }
+  }ß
   /* Dark Mode Toggle */
   .theme-switch-wrapper {
     right: 12px;
