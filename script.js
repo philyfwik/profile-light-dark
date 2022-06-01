@@ -1,16 +1,19 @@
+const nav = document.getElementById('nav'); // for nav bar
+// for toggle dark / light mode:
 const toggleSwitch = document.querySelector('input[type="checkbox"]');
-const nav = document.getElementById('nav');
 const toggleIcon = document.getElementById('toggle-icon');
-const image1 = document.getElementById('img1');
-const image2 = document.getElementById('img2');
-const image3 = document.getElementById('img3');
+// for technical skills / hobbies: 
+const aboutTitle = document.getElementById('about-title');  
 const image1Title = document.getElementById('img1-title');
 const image2Title = document.getElementById('img2-title');
 const image3Title = document.getElementById('img3-title');
+const image1 = document.getElementById('img1');
+const image2 = document.getElementById('img2');
+const image3 = document.getElementById('img3');
+// for project (to be toggle switched between js and react once more projects are completed)
 const textBox = document.getElementById('text-box');
-const aboutTitle = document.getElementById('about-title');
-//const projectsTitle = document.getElementById('projects-title');
 //const textBoxP = document.getElementById('text-box-p');
+// for achievements
 const achievement1 = document.getElementById('ach1');
 const achievement2 = document.getElementById('ach2');
 const achievement3 = document.getElementById('ach3');
