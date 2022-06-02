@@ -293,7 +293,7 @@ input:checked + .slider::before {
   }
   nav a {
     margin-right: 20px;
-  }ß
+  }
   /* Dark Mode Toggle */
   .theme-switch-wrapper {
     right: 12px;
