@@ -58,7 +58,7 @@ function lightMode() {
   nav.children[1].textContent = 'SKILLS';
   aboutTitle.textContent = 'Technical Skills';
   imageMode('light');
-  imageTitle('JavaScript Developer', 'React Developer', 'Full Stack Developer');
+  imageTitle('JavaScript / Vue Developer', 'PHP / Laravel Developer', 'Full Stack Developer');
   //projectsTitle.textContent = 'JS Projects';
   //textBoxP.textContent = 'All Projects were built in JavaScript';
 }
